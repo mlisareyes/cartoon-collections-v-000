@@ -11,9 +11,9 @@ end
 def long_planeteer_calls(calls_short)
   short = calls_short.length
   if short < 4
-    returns false
+    return false
   else
-    returns true
+    return true
   end
 end
 
