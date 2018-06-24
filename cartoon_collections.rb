@@ -9,6 +9,11 @@ planeteer_calls.map {|name| name.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls_short)
+  short = calls_short.length
+  if short < 4
+    returns true
+  else
+    returns false
   # Your code here
 end
 
